@@ -65,7 +65,7 @@ h7{ font-family: 'Nanum Myeongjo', serif;}
 h8{ font-family: 'Nanum Myeongjo', serif; font-weight:bold}
 h9{ font-size: 2.5em; line-height: 1.5; font-weight: inherit; font-family: 'Jeju Myeongjo', serif;}
 h10{ font-size: 2.5em; line-height: 0.5; font-family: 'Noto Serif KR', serif;}
-h11{font-size: 0.9em; font-family: 'Noto Serif KR', serif;}
+h11{ font-size: 0.9em; font-family: 'Noto Serif KR', serif;}
 
 a, button{ display: inline-block; text-decoration: none; color: inherit; transition: all .3s; line-height: 1; }
 
