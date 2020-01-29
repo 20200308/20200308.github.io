@@ -47,9 +47,9 @@ body{ font-size: 16px; font-family: 'Bitter', serif; width: 100%; height: 100%; 
 	-webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; word-wrap: break-word; 
 	color: #333; }
 
-h1, h2, h3, h4, h5, h6, h7, h8, h9, p, a, ul, span, li, img, inpot, button{ margin: 0; padding: 0; }
+h1, h2, h3, h4, h5, h6, h7, h8, h9, h10, h11, p, a, ul, span, li, img, inpot, button{ margin: 0; padding: 0; }
 
-h1,h2,h3,h4,h5,h6{ line-height: 1.5; font-weight: inherit; }
+h1,h2,h3,h4,h5,h6,h10{ line-height: 1.5; font-weight: inherit; }
 
 h1,h2,h3{font-family: 'Jeju Myeongjo', serif;}
 
@@ -64,6 +64,8 @@ h6{ font-size: .9em; letter-spacing: 1px; }
 h7{ font-family: 'Nanum Myeongjo', serif;}
 h8{ font-family: 'Nanum Myeongjo', serif; font-weight:bold}
 h9{ font-size: 2.5em; line-height: 1.5; font-weight: inherit; font-family: 'Jeju Myeongjo', serif;}
+h10{ font-size: 2.5em; line-height: 0.5; font-family: 'Noto Serif KR', serif;}
+h11{font-size: 0.9em; font-family: 'Noto Serif KR', serif;}
 
 a, button{ display: inline-block; text-decoration: none; color: inherit; transition: all .3s; line-height: 1; }
 
@@ -289,7 +291,7 @@ header .main-menu li.drop-down a.mouseover + ul.drop-down-menu{ display: block;
 	z-index: -1; background: rgba(0,0,0,.3); }
 	
 .remaining-time .time-sec{ position: relative; display: inline-block; margin: 0 20px; margin-bottom: 30px; 
-	height: 120px; width: 120px; padding-top: 25px; border-radius: 100px; border: 1px solid #000000; }
+	height: 120px; width: 120px; padding-top: 25px; border-radius: 100px; border: 1px solid #fff; }
 
 .remaining-time .time-sec .title{ font-size: 3em; line-height: 1; display: block; }
 
