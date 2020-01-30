@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css?family=Song+Myung&display=swap');
 @import url(http://fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif+KR:200,300,400,500,600,700,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Allura&display=swap');
+@font-face { font-family: 'Chosunilbo_myungjo'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff'); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'MapoFlowerIsland'; src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoFlowerIslandA.woff') format('woff'); font-weight: normal; font-style: normal; }
 /*
 ====================================================
 
@@ -49,17 +52,15 @@ body{ font-size: 16px; font-family: 'Bitter', serif; width: 100%; height: 100%; 
 
 h1, h2, h3, h4, h5, h6, h7, h8, h9, h10, h11, p, a, ul, span, li, img, inpot, button{ margin: 0; padding: 0; }
 
-h1,h2,h3,h4,h5,h6,h10{ line-height: 1.5; font-weight: inherit; }
-
-h1,h2,h3{font-family: 'Jeju Myeongjo', serif;}
+h2,h3,h4,h5,h6,h10{ line-height: 1.5; font-weight: inherit; }
 
 p{ line-height: 1.6; font-size: 1.05em; font-weight: 400; color: #555; }
 
-h1{ font-size: 5em; line-height: 1; font-family: 'Nanum Myeongjo', serif;}
-h2{ font-size: 3.5em; line-height: 1.1; font-family: 'Playball', cursive;}
-h3{ font-size: 2.5em; font-family: 'Playball', cursive;}
-h4{ font-size: 1.5em; font-family:'Nanum Myeongjo', serif;}
-h5{ font-size: 1.5em; font-family: 'Song Myung', serif;}
+h1{ font-size: 5em; line-height: 1; font-family: 'MapoFlowerIsland', serif;}
+h2{ font-size: 3.5em; line-height: 1.1; font-family: 'Allura', cursive;}
+h3{ font-size: 2.5em; font-family: 'Allura', cursive;}
+h4{ font-size: 1.5em; font-family: 'Nanum Myeongjo', serif;}
+h5{ font-size: 1.5em; font-family: 'MapoFlowerIsland', serif;}
 h6{ font-size: .9em; letter-spacing: 1px; }
 h7{ font-family: 'Nanum Myeongjo', serif;}
 h8{ font-family: 'Nanum Myeongjo', serif; font-weight:bold}
